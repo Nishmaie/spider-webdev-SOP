@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    background-color: rgb(124, 159, 173);
+    font-size: 15px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 3em;
+    border-radius: 2%;
+}
+
+.text-center {
+    text-align: center;
+    color: black;
+    font-size: 3em;
+}
+
+.float-right {
+    text-align: right;
+    font-size: large;
+}
+
+#keyboard {
+    background-color: whitesmoke;
+    padding: 1em;
+    font-size: 50%;
+}
+
+.button-reset {
+    color: blueviolet;
+    background-color: rgb(200, 200, 118);
+    font-size: 50%;
+    margin: 0px 3px;
+    padding: 0.5em;
+    border-radius: 10%;
+}
+
+.alphabets {
+    background-color: rgb(200, 200, 118);
+    color: blueviolet;
+    font-size: 70%;
+    font-style: inherit;
+    font-display: inherit;
+    padding: 0.5em;
+    border-radius: 10%;
+    letter-spacing: 0.5em;
+    margin: 0px 3px;
+    height: 28px;
+    width: 28px;
+}
